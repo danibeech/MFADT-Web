@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Libre+Baskerville');
+
+body {
+	width: 100%;
+	margin: 0px;
+	font-family: 'Archivo Black', sans-serif;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1em;
+	color: white;
+}
+
+header {
+	
+	border: 0px;
+	background-color: #8B92C7;
+	width: 100vw;
+	height: 100px;
+	position: relative;
+	
+}
+
+#navigation{
+	font-family:'Archivo Black', sans-serif;
+	font-size: 14px;
+	text-orientation: right;
+	display: flow;
+	color: white;
+	margin-left: 90vw;
+	position: absolute;
+}
+
+nav
+
+#banner{
+	position: fixed;
+}
+
+#headshot{
+	margin-top: 170px;
+	margin-left: 100px;
+	margin-bottom: 80px;
+	position: absolute;
+	
+}
+
+
+.introduction{
+	border: 2px;
+	background-color: #FE7EBB;
+	width: 550px;
+	height: 278px;
+	margin-top: 170px;
+	margin-left: 600px;
+	margin-right: 100px;
+	position: relative;
+
+}
+
+	#hi-there{
+		font-family:'Archivo Black', sans-serif;
+		font-size: 38px;
+		margin-top: 18px;
+		padding-top: 0px;
+		padding-left: 147px;
+		padding-right: 147px;
+	}
+
+	#blurb{
+		font-family:'Libre Baskerville', serif;
+		font-size: 18px;
+		margin-left: 28px;
+		margin-right: 28px;
+		padding-bottom: 86px;
+
+	}
+
+#palmleaf-right{
+	margin-left: 1000px;
+	margin-top: -450px;
+	position: absolute;
+	animation-name: rightleaf;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes rightleaf{
+	0% { 
+		}
+
+	50%{
+		transform: rotate(45deg);
+	}
+
+	100%{
+		transition-property: rotate(90deg)
+	}
+
+}
+
+
+
+#palmleaf-left{
+	margin-left: 100px;
+	margin-top: -450px;
+	position: absolute;
+	animation-name: leftleaf;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+@keyframes leftleaf{
+	0% { 
+		}
+
+	50%{
+		transform: rotate(-45deg);
+	}
+
+	100%{
+		transition-property: rotate(-90deg)
+	}
+}
+.work-container{
+	position: relative;
+	margin-bottom: 100px;
+
+}
+
+.box{
+	display: inline-block;
+	font-size: 0.8em;
+	margin: 50px;
+	width: 300px;
+	height: 250px;
+}
+
+#work1{
+	margin-top: 200px;
+	margin-right: 0px;
+	margin-left: 100px;
+	position: relative;
+	
+}
+
+#work1:hover {
+	opacity: 0.6;
+}
+
+#work2{
+	margin-right: 0px;
+	margin-left: 50px;
+	
+}
+#work2:hover{
+	opacity: 0.6;
+}
+
+#work3{
+	margin-right: 100px;
+	margin-left: 50px;
+}
+
+#work3:hover{
+	opacity: 0.6;
+}
+
+
+/*end of homepage*/
+
+.bio-box{
+	border: 2px;
+	background-color: #FE7EBB;
+	width: 70vw;
+	height: 278px;
+	margin-top: 20px;
+	margin-left: 200px;
+	margin-right: 100px;
+	position: relative;
+
+}
+
+#biography{
+
+		font-family:'Libre Baskerville', serif;
+		font-size: 18px;
+		padding-top: 50px;
+		margin-left: 28px;
+		margin-right: 28px;
+		padding-bottom: 86px;
+
+}
+
+.inspiration-box{
+	border: 2px;
+	background-color: #FE7EBB;
+	width: 550px;
+	height: 278px;
+	margin-top: 10px;
+	margin-left: 100px;
+	margin-right: 100px;
+	position: relative;
+}
+
+#inspiration{
+		font-family:'Libre Baskerville', serif;
+		font-size: 18px;
+		margin-left: 28px;
+		margin-right: 28px;
+		padding-bottom: 86px;
+}
+
+
+#el1{
+	position: relative;
+	margin-top: -250px;
+	margin-left: 55vw;
+	
+}
+
+#el2{
+margin-left: 50px;
+position: relative;
+padding: 100px;
+}
+
+#zaha1{
+	position: relative;
+	margin-top: -54vh;
+	margin-left: 30vw;
+	/*padding-left: 100px;*/
+}
+
+#zaha2{
+	position: relative;
+	margin-top: -54vh;
+	margin-left: 60vw;
+	padding-top: 100px;
+}
+
+#jack1{
+	position: relative;
+	margin-left: 15vw;
+	padding-top: 100px;
+}
+
+#jack3{
+	position: relative;
+	margin-top: -254px;
+	margin-left:50vw;
+}
+
+#stella1{
+	margin-left: 100px;
+	padding-top: 100px;
+	position: relative;
+	padding-left: 50px;
+
+
+}
+
+#stella2{
+	margin-top: -584px;
+	margin-left: 35vw;
+	position: relative;
+	padding: 100px;
+}
+
+#stella3{
+	margin-top: -684px;
+	margin-left: 65vw;
+	position: relative;
+	padding: 100px;
+}
+
+#ted{
+	position: relative;
+	margin-left: 250px;
+	
+}
+
